@@ -6,7 +6,7 @@ The goal of this project was to identify what cryptocurrencies are currently ava
 
 ## Results
 ### Preprocessing the Data for PCA
-The first steps in the analysis consisted of cleaning and filtering the dataset (retrieve from CryptoCompare (https://min-api.cryptocompare.com/data/all/coinlist)).
+The first steps in the analysis consisted of cleaning and filtering the dataset (retrieve from CryptoCompare(https://min-api.cryptocompare.com/data/all/coinlist)).
 Rows were filtered to exclude cryptocurrencies that are not currently being traded, to exclude rows with missing values and to include rows with total number of coins mined greater than zero. The resulting data frame had 532 rows in length.
 
 ![Screen Shot 2022-02-25 at 11 32 10 AM](https://user-images.githubusercontent.com/89421440/155828740-da8cff18-ba41-4249-848e-501568ac707b.png)
@@ -30,8 +30,11 @@ The 4 distinct clusters can be visualized in the following scatterplots.
 
 ![3D_Scatter_plot](https://user-images.githubusercontent.com/89421440/155829433-b5b03a33-0dd5-438f-bbb8-75e50a61efd1.png)
 
+The 3-D scatter plot above shows that two clusters (Classes 0 and 1) gather the majority of cases, 525 out of 532. Class 3 gathers only a small group of 6 data points. While class 2 has a single data point, BitTorrent, that could be treated as a potential outlier.
+
 ![Scatter_plot](https://user-images.githubusercontent.com/89421440/155829439-480c9a1b-9820-4fc7-9552-0114c54cbe26.png)
 
+The 2-D scatter plot above adds more meaning to the clusters. BitTorrent seems to be the only cryptocurrency in high demand and high supply in the dataset. Turtle coin in Class 1 can also be treated as a potential outlier, as it's the only cryptocurrency with high sypply and low demand. Most of the other data points are in low demand and low supply. Class 1 appears to lean towards low to moderate demand and supply.
 
 ## Summary
 In sum, 
