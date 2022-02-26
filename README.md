@@ -34,11 +34,8 @@ The 3-D scatter plot above shows that two clusters (Classes 0 and 1) gather the 
 
 ![Scatter_plot](https://user-images.githubusercontent.com/89421440/155829439-480c9a1b-9820-4fc7-9552-0114c54cbe26.png)
 
-The 2-D scatter plot above adds more meaning to the clusters. BitTorrent seems to be the only cryptocurrency in high demand and high supply in the dataset. Turtle coin in Class 1 can also be treated as a potential outlier, as it's the only cryptocurrency with high sypply and low demand. Most of the other data points are in low demand and low supply. Class 1 appears to lean towards low to moderate demand and supply.
+The 2-D scatter plot above adds more meaning to the clusters. BitTorrent seems to be the only cryptocurrency in high demand and high supply in the dataset. Turtle Coin in Class 1 can also be treated as a potential outlier, as it's the only cryptocurrency with high sypply and low demand. Most of the other data points are in low demand and low supply. Class 1 appears to lean towards low to moderate demand and supply.
 
 ## Summary
-In sum, 
-
-Reducing the dimensionality of the data to 3 dimensions needs to be reevaluated as 3 dimension only account for 7% of the variance in the dataset.
-Inertia needs to be minimized as the value for this model was 501.998
+In sum, cryptocurrencies data was analyzed using an unsupervised machine learning model. Specifically, cryptocurrencies were gathered in 4 different clusters using the K-means algorithm. Overall, the model generated meaningful classification. Still, some further factors might need to be considered for model improvement. The first factor is the presence of potential outliers, in particular BitTorrent and Turtle Coin. The second factor is that reducing the dimensionality of the data to 3 dimensions might need to be reevaluated as 3 dimension only accounted for 7% of the variance in the dataset. Finally, Inertia in the K-means algorithm might need to be minimized as the value for this model was 501.998
 
