@@ -6,7 +6,7 @@ The goal of this project was to identify what cryptocurrencies are currently ava
 
 ## Results
 ### Preprocessing the Data for PCA
-The first steps in the analysis consisted of cleaning and filtering the dataset (retrieve from [CryptoCompare](https://min-api.cryptocompare.com/data/all/coinlist)).
+The first steps in the analysis consisted of cleaning and filtering the dataset (retrieved from [CryptoCompare](https://min-api.cryptocompare.com/data/all/coinlist)).
 Rows were filtered to exclude cryptocurrencies that are not currently being traded, to exclude rows with missing values and to include rows with total number of coins mined greater than zero. The resulting data frame had 532 rows in length.
 
 ![Screen Shot 2022-02-25 at 11 32 10 AM](https://user-images.githubusercontent.com/89421440/155828740-da8cff18-ba41-4249-848e-501568ac707b.png)
